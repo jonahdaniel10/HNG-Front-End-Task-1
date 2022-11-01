@@ -14,6 +14,7 @@ background: #FFFFFF;
     padding: 0px;
     width: 88px;
     height: 88px;
+    margin:15px auto;
 
     background: url(.jpg);
     border-radius: 275px;
@@ -25,7 +26,7 @@ background: #FFFFFF;
 .MyName{
 width: 1152px;
 height: 30px;
-
+margin:auto;
 
 font-family: 'Inter';
 font-style: normal;
@@ -52,6 +53,7 @@ justify-content: center;
 align-items: center;
 padding: 24px 32px;
 gap: 8px;
+margin:15px auto;
 
 width: 1152px;
 height: 76px;
@@ -111,7 +113,7 @@ justify-content: center;
 align-items: center;
 padding: 24px 32px;
 gap: 8px;
-
+margin:15px auto;
 width: 1152px;
 height: 76px;
 
@@ -140,7 +142,7 @@ justify-content: center;
 align-items: center;
 padding: 24px 32px;
 gap: 8px;
-
+margin:15px auto;
 width: 1152px;
 height: 76px;
 
@@ -169,7 +171,7 @@ justify-content: center;
 align-items: center;
 padding: 24px 32px;
 gap: 8px;
-
+margin:15px auto;
 width: 1152px;
 height: 76px;
 
@@ -199,7 +201,7 @@ justify-content: center;
 align-items: center;
 padding: 24px 32px;
 gap: 8px;
-
+margin:15px auto;
 width: 1152px;
 height: 76px;
 
@@ -229,6 +231,7 @@ justify-content: center;
 align-items: center;
 padding: 24px 32px;
 gap: 8px;
+margin: 15px auto;
 
 width: 1152px;
 height: 76px;
@@ -248,9 +251,72 @@ order: 0;
 flex-grow: 1;
 }
 
-a{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.socialButton{
+    /* Social Section */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 0px;
+gap: 40px;
+margin:15px 650px;
+
+width: 1216px;
+height: 72px;
+
+/* Base/White */
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.socialContent{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 800px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.socialIcons{
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 1152px;
+    height: 24px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+   flex-grow: 1;
 }
 
 
